@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bible Verse</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Georgia, serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:linear-gradient(135deg,#1e3c72,#2a5298);
+}
+
+.verse-card{
+    width:90%;
+    max-width:500px;
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(10px);
+    padding:35px;
+    border-radius:20px;
+    text-align:center;
+    color:white;
+    box-shadow:0 10px 30px rgba(0,0,0,0.3);
+}
+
+.cross{
+    font-size:50px;
+    margin-bottom:15px;
+}
+
+.verse{
+    font-size:24px;
+    line-height:1.7;
+    font-style:italic;
+}
+
+.reference{
+    margin-top:20px;
+    font-size:18px;
+    font-weight:bold;
+    color:#ffd700;
+}
+
+.footer{
+    margin-top:15px;
+    font-size:14px;
+    opacity:0.8;
+}
+</style>
+</head>
+<body>
+
+<div class="verse-card">
+    <div class="cross">✝</div>
+
+    <div class="verse">
+        "For I know the plans I have for you,
+        declares the Lord, plans to prosper you
+        and not to harm you, plans to give you
+        hope and a future."
+    </div>
+
+    <div class="reference">
+        Jeremiah 29:11
+    </div>
+
+    <div class="footer">
+        Daily Bible Verse
+    </div>
+</div>
+
+</body>
+</html>
